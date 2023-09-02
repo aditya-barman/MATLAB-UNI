@@ -1,4 +1,4 @@
-clc, clearvars
+clc, clearvars, close all
 
 % Define the symbolic variable x
 syms x

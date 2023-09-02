@@ -1,4 +1,4 @@
-clc, clearvars
+clc, clearvars, close all
 
 % Define the symbolic variable x
 syms x
@@ -28,7 +28,7 @@ plot(x_values, y_values, 'b', x_values, dydx_values, 'g', x_values, d2ydx2_value
 xlabel('x');
 ylabel('y');
 title('Function and Its Derivatives');
-legend('f(x)', '1st Derivative', '2nd Derivative');
+legend('y = 3x^3 - 26x + 10', "y' (First Derivative)", "y'' (Second Derivative)");
 
 grid on;
 
