@@ -2,10 +2,8 @@
 
 clc, clearvars, close all
 
-% Input the value of x in radians
 x = input('Enter the value of x (in radians): ');
 
-% Initialize variables
 sin_x = 0;
 term = x;
 n = 0;
@@ -17,5 +15,4 @@ while abs(term) >= tolerance
     term = (-1)^n * (x^(2*n + 1)) / factorial(2*n + 1);
 end
 
-% Print the result
 fprintf('Approximate value of sin(%0.5f) = %0.5f\n', x, sin_x);
