@@ -1,0 +1,15 @@
+1. Use anonymous function in MATLAB, plot the following functions by passing arguments a, b, c to the function:
+
+f(x) = ax^2 + bx + c; -25 <= x <= 25
+
+with
+(i) a = -3.9, b = 52, c = 0
+(ii) a = 1.3, b = 0.2, c = 30
+
+2. Passing a user-defined function to quad in MATLAB, to evaluate
+
+integrate (g*cos(wt))dt from -5 to 5, where g = 2.5, w = 10
+
+3. Use primary function and subfunction in MATLAB to evaluate
+
+integrate from 0 to 2 (dx/(x^3 - 2x - 5))

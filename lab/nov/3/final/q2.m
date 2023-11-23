@@ -1,7 +1,7 @@
 clc, clearvars, close all
 
-x = linspace(-3, 3);
-y = linspace(-3, 3);
+x = linspace(-3, 3, 100);
+y = linspace(-3, 3, 100);
 
 [X, Y] = meshgrid(x, y);
 Z = (X .* Y .* (X .^ 2 - Y .^ 2)) ./ (X .^ 2 + Y .^ 2);
