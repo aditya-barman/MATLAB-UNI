@@ -2,10 +2,10 @@ clc, clearvars, close all
 
 z = inline('cos(x) .* cos(y) .* (exp((-sqrt(x.^2 + y.^2)) / 4))', 'x', 'y');
 
-x_range = linspace(-5, 5, 200);
-y_range = linspace(-5, 5, 200);
+x = linspace(-5, 5, 200);
+y = linspace(-5, 5, 200);
 
-ezsurf(z, x_range, y_range);
+ezsurf(z, x, y);
 
 
 xlabel('x');
